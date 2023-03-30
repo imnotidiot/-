@@ -1,39 +1,13 @@
-from flask import Flask, render_template
+안녕하세요! GPT 멘토링을 받으면서 느낀 점을 작성해드리겠습니다.
 
-app = Flask(__name__)
+GPT의 다양한 활용 방법에 대한 이해도 증가
+GPT 멘토링을 통해 GPT의 다양한 활용 방법에 대해 배우고, 이를 실제로 구현해보면서 GPT에 대한 이해도가 크게 증가하였습니다. 특히, 텍스트 생성, 요약, 번역, 감성 분석 등 다양한 NLP 태스크에 적용 가능한 GPT의 활용 방법을 배우면서 많은 도움이 되었습니다.
 
-# Define routes
-@app.route("/")
-def home():
-    return render_template("home.html")
+적극적인 토의와 피드백 제공으로 인한 성장
+멘토와 함께 다양한 주제에 대해 토의하고, 서로의 의견을 나누면서 적극적으로 참여하면서 성장할 수 있었습니다. 또한, 멘토로부터 적극적인 피드백을 받으면서 자신의 부족한 부분을 파악하고 보완할 수 있었습니다.
 
-@app.route("/about")
-def about():
-    return render_template("about.html")
+GPT 모델링에 대한 깊은 이해도와 실력 향상
+멘토링을 통해 GPT 모델링에 대한 깊은 이해도와 실력이 크게 향상되었습니다. 멘토님께서 제시해주신 다양한 프로젝트를 구현하면서, 실제 문제에 적용 가능한 GPT 모델을 구현하는 방법에 대해 배우고, 이를 바탕으로 실력을 향상시켜나갈 수 있었습니다.
 
-@app.route("/portfolio")
-def portfolio():
-    projects = [
-        {
-            "name": "Project 1",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "image": "project1.jpg",
-            "url": "https://github.com/yourusername/project1"
-        },
-        {
-            "name": "Project 2",
-            "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "image": "project2.jpg",
-            "url": "https://github.com/yourusername/project2"
-        },
-        {
-            "name": "Project 3",
-            "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "image": "project3.jpg",
-            "url": "https://github.com/yourusername/project3"
-        }
-    ]
-    return render_template("portfolio.html", projects=projects)
-
-if __name__ == "__main__":
-    app.run(debug=True)
+커뮤니티와의 소통을 통한 지식 공유
+GPT 멘토링을 통해 다른 멘티들과의 소통을 통해 다양한 지식을 공유할 수 있는 기회가 있었습니다. 이를 통해 다른 분야의 전문가들과의 교류를 통해 보다 폭넓은 지식과 경험을 쌓을 수 있었습니다.
